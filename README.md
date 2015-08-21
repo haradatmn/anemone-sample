@@ -27,7 +27,7 @@
 ## Anemoneオプション一覧
 
 |メソッド名|デフォルト値|機能|
-|:--|:--|
+|:--|:--|:--|
 |:depeth_limit|false|サイト巡回するページの深さ指定(0:1ページのみ)falseは無制限|
 |:skip_query_strings|false|URLの引数を無視するか|
 |:obey_robots_txt|false|robots.txtを従うか|
