@@ -42,6 +42,19 @@
 |doc()|HTMLのbodyをNokogiri形式にして返す|
 |links()|ページ中の<A>タグのリンク先の一覧をリストで返す|
 
+## CocProxy
+
+http://coderepos.org/share/wiki/CocProxy
+
+### デフォルト設定の変更
+
+カレントディレクトリに「proxy-config.yaml」を作成して設定をする
+
+例↓  
+`
+server:  
+  :nocache: true
+`
 
 
 
