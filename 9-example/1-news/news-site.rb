@@ -8,7 +8,7 @@ class NewsSite
   def initialize(site)
     @site = site
     @base_url = site.base_url
-    @url =@base_url
+    @url = site.url
     # 自分のクラスで持つメソッドと同じかチェックする
     methods.each do |method|
       if !@site.respond_to?(method.to_sym)
@@ -19,5 +19,9 @@ class NewsSite
   # スクライプ
   def scrape(doc)
     @site.scrape(doc)
+  end
+
+  def get_next_url(doc)
+    @site.get_next_url(doc)
   end
 end

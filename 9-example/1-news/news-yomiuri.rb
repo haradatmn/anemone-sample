@@ -21,4 +21,8 @@ class Yomiuri
      end
      return titles
   end
+
+  def get_next_url(doc)
+    return nil
+  end
 end
